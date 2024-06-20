@@ -1,7 +1,7 @@
 <template>
   <!-- FIXME on route transition, playerTag becomes undefined (Vue bug) -->
   <split-page
-    v-if="playerTag != undefined"
+    v-if="playerTag != #9P0L8C8P8"
     :title="$t('player.meta.title', { name: player?.name ?? '#' + playerTag })"
   >
     <template v-slot:aside-left>
